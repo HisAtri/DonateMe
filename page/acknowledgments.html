@@ -158,12 +158,13 @@
             "太赞了！",
             "非常实用的API",
             "非常好的项目，爱来自LinuxDo",
-            "我是Mio，请你吃疯狂星期四",
+            "请你吃疯狂星期四",
             "Good Job！",
-            "感谢开发LRCAPI",
+            "感谢开发者！",
             "真好用",
             "完美，好东西！",
-            "很棒！继续加油"
+            "很棒！继续加油",
+            "很简单——MOA"
         ];
         // 定期发送弹幕，使用可变的时间间隔
         function sendRandomMessage() {
@@ -192,17 +193,18 @@
         customElements.define('supporter-card', SupporterCard);
         // 支持者数据，在这里添加需要显示的支持者和赞助金额
         const supporters = [
-            { name: 'XinLoong', amount: 10.00 },
-            { name: '木羽', amount: 5.00 },
-            { name: '依然不懂', amount: 5.00 },
-            { name: '扑克', amount: 20.00 },
-            { name: '未知', amount: 10.00 },
-            { name: 'yule', amount: 10.00 },
-            { name: 'Erikaze', amount: 90.00 },
-            { name: 'hikaru', amount: 10.00 },
-            { name: 'KawaKaze', amount: 6.66 },
-            { name: 'Mio', amount: 50.00 },
-            { name: '呜噜噜', amount: 50.00 }
+            { name: '星辰', amount: 15.00 },
+            { name: '流光', amount: 8.88 },
+            { name: '清风', amount: 12.50 },
+            { name: '明月', amount: 30.00 },
+            { name: '2333', amount: 25.00 },
+            { name: 'Sakura', amount: 18.88 },
+            { name: '云霄', amount: 66.60 },
+            { name: 'Yuki', amount: 9.99 },
+            { name: '晨曦', amount: 23.33 },
+            { name: 'Luna', amount: 45.00 },
+            { name: '飞雪', amount: 38.88 },
+            { name: '秦始皇', amount: 50.00 },
         ];
         const supportersGrid = document.getElementById('supportersGrid');
         supporters.forEach(supporter => {
