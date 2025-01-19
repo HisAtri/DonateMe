@@ -6,8 +6,8 @@
 ## 使用方法
 
 1. Fork本项目。
-2. 将`favicon.ico`替换为你的项目图标；将`src/img/LrcAPI-Text-Extra.png`替换为你的项目Logo，或者上传自己的项目Logo，修改html中对应的链接。
-3. 修改`page/index.html`、`page/acknowledgements.html`中的文本和链接。
+2. 上传你的项目Logo
+3. 在`src/js/site-config.js`中修改你的项目信息，选择启用或关闭某些功能。修改HTML文件中的其他文本描述和链接。
 4. （可选）修改`src/css/v50.css`，修改页面样式。
 5. 使用Github Pages / Vercel / Cloudflare Pages 等平台，将本项目的`page`目录部署到公开网络上。
 6. 将部署后的页面链接，分享给你的用户。

@@ -1,0 +1,10 @@
+version: '3'
+services:
+  nginx:
+    image: nginx
+    container_name: temp-nginx
+    ports:
+      - "48080:80"
+    volumes:
+      - ./page:/usr/share/nginx/html
+    restart: no
